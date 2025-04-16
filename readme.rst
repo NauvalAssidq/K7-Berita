@@ -1,42 +1,34 @@
 ###################
-What is CodeIgniter
+News CMS on CI3
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Ini adalah cms berita yang dibuat dalam ci3, menggunakan tailwind sebagai framework front-end dan quill
+sebagai text-editornya. Project ini berbasis MVC, dengan view modular. Untuk cara pemasangannya anda bisa
+langkah langkah yang ada di tutorial Youtube.
 
 *******************
-Release Information
+Info Rilis
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Ini adalah versi 1.0.0 dari website ini, dan dibuat demi kepentingan pendidikan.
+segala bentuk pengubahan ataupun pengutipan dari project ini dimohon untuk memasukkan
+credit untuk @nauvalassidq
 
 **************************
-Changelog and New Features
+Changelog
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+1. Fix bug ketika edit user, yang di edit adalah session-user
 
 *******************
-Server Requirements
+Prasyarat
 *******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Direkomendasikan php 7 keatas, project ini sudah di deprecated jadi tidak masalah
+php terbaru. untuk database terdapat di folder database/
 
 ************
-Installation
+Instalasi
 ************
 
 Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
