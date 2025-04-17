@@ -6,12 +6,14 @@ class MY_Controller extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        
+
+        if ($this->db = $this->load->database('default', TRUE, TRUE)) {
+        } else {
+            log_message('error', 'Database connection failed.');
+        }
 
         $this->load->helper(array('url', 'form', 'permission_helper', 'view_helper', 'file', 'text', 'date'));
         $this->load->library(array('pagination', 'session', 'user_agent'));
-
-
 
         if (is_user_logged_in()) {
             $this->load->model('User_model');
