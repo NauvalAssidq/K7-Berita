@@ -75,14 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'   => '',
-    'hostname' => $_ENV['MYSQL_HOST'] ?? 'localhost',
-    'username' => $_ENV['MYSQL_USER'] ?? 'root', 
-    'password' => $_ENV['MYSQL_PASSWORD'] ?? 'admin', 
-    'database' => $_ENV['MYSQL_DATABASE'] ?? 'news_cms',
+    'hostname' => 'mysql.railway.internal',
+    'username' => 'root',
+    'password' => 'jVrJUQHDCrsBkSkBnsdqNGDTvJHXnDBi',
+    'database' => 'railway',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
-    'pconnect' => TRUE,
-    'db_debug' => (ENVIRONMENT !== 'production'),
+    'pconnect' => FALSE,
+    'db_debug' => TRUE,
     'cache_on' => FALSE,
     'cachedir' => '',
     'char_set' => 'utf8',
@@ -92,5 +92,5 @@ $db['default'] = array(
     'compress' => FALSE,
     'stricton' => FALSE,
     'failover' => array(),
-    'save_queries' => (ENVIRONMENT !== 'production')
+    'save_queries' => TRUE
 );
