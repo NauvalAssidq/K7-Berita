@@ -1,6 +1,3 @@
----
-
-```markdown
 # K7-Berita
 
 **K7-Berita** adalah aplikasi manajemen berita berbasis web yang dikembangkan menggunakan framework **CodeIgniter**. Aplikasi ini memungkinkan pengguna untuk mengelola konten berita secara efisien melalui antarmuka web yang sederhana dan ringan.
@@ -85,4 +82,3 @@ Izin diberikan, secara gratis, kepada siapa pun yang mendapatkan salinan perangk
 Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan dalam semua salinan atau bagian penting dari Perangkat Lunak.
 
 PERANGKAT LUNAK DIBERIKAN "SEBAGAIMANA ADANYA", TANPA JAMINAN APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK TERBATAS PADA JAMINAN DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN TERTENTU DAN TANPA PELANGGARAN. DALAM HAL APA PUN PARA PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUSAKAN ATAU KEWAJIBAN LAIN, BAIK DALAM TINDAKAN KONTRAK, KESALAHAN ATAU LAINNYA, YANG TIMBUL DARI, DARI ATAU SEHUBUNGAN DENGAN PERANGKAT LUNAK ATAU PENGGUNAAN ATAU TRANSAKSI LAIN DALAM PERANGKAT LUNAK.
-```
