@@ -392,11 +392,11 @@ $config['sess_time_to_update']     = 300;
 $config['sess_regenerate_destroy'] = FALSE;
 
 $config['sess_table_name']         = 'ci_sessions';
-$config['sess_primary_key']        = 'session_id'; // Add or modify this line
-$config['sess_ip_address']         = 'ip_address'; // Add or modify this line
-$config['sess_timestamp']          = 'last_activity'; // Add or modify this line
+$config['sess_primary_key']        = 'session_id';
+$config['sess_ip_address']         = 'ip_address';
+$config['sess_timestamp']          = 'last_activity';
 $config['sess_match_useragent']    = TRUE;
-$config['sess_userdata']           = 'user_data'; // Add or modify this line
+$config['sess_userdata']           = 'user_data';
 
 
 /*
